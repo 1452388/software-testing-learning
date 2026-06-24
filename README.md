@@ -53,7 +53,10 @@ software-testing-learning/
 ├── 📁 notes/                       ← 学习笔记
 │   ├── linux-commands.md
 │   ├── sql-cheatsheet.md
-│   └── interview-qa.md
+│   ├── interview-qa.md
+│   └── 📁 git学习资源/
+│       ├── git-practice-websites.md
+│       └── git-common-commands.md
 │
 └── 📁 screenshots/                 ← 各种截图证明
     ├── test-results/

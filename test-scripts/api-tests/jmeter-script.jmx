@@ -1,0 +1,30 @@
+<!--
+  JMeter 性能测试脚本模板
+  使用方法：JMeter → 打开此文件 → 调整线程数/循环次数 → 运行
+-->
+<jmeterTestPlan version="1.2" properties="5.0">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="接口性能测试计划" enabled="true">
+      <stringProp name="TestPlan.comments">学习 JMeter 性能测试的练习脚本</stringProp>
+    </TestPlan>
+    <hashTree>
+      <!-- 线程组 -->
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="用户接口 - 并发测试" enabled="true">
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">5</stringProp>
+        <stringProp name="ThreadGroup.duration">60</stringProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <!-- HTTP请求 -->
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET /users" enabled="true">
+          <stringProp name="HTTPSampler.domain">jsonplaceholder.typicode.com</stringProp>
+          <stringProp name="HTTPSampler.path">/users</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

@@ -1,0 +1,44 @@
+# ============================================
+# 接口测试 - Postman Collection
+# 导入方式：Postman → Import → 选择此文件
+# ============================================
+
+{
+  "info": {
+    "name": "软件测试学习 - API 测试合集",
+    "description": "学习过程中的接口测试练习合集",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "用户模块",
+      "item": [
+        {
+          "name": "GET - 获取用户列表",
+          "request": {
+            "method": "GET",
+            "url": "https://jsonplaceholder.typicode.com/users"
+          }
+        },
+        {
+          "name": "GET - 获取单个用户",
+          "request": {
+            "method": "GET",
+            "url": "https://jsonplaceholder.typicode.com/users/1"
+          }
+        },
+        {
+          "name": "POST - 创建用户",
+          "request": {
+            "method": "POST",
+            "url": "https://jsonplaceholder.typicode.com/users",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"name\":\"Test\",\"email\":\"test@test.com\"}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

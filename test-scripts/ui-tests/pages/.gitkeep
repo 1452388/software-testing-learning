@@ -1,0 +1,9 @@
+# Page Objects 目录
+
+> 存放 Selenium Page Object Model 页面对象文件
+
+示例文件名规范：
+- `login_page.py` — 登录页
+- `home_page.py` — 首页
+- `order_page.py` — 订单页
+- `base_page.py` — 基础页面（公共方法）

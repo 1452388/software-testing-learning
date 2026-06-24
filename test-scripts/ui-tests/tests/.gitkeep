@@ -1,0 +1,8 @@
+# UI 测试用例目录
+
+> 存放 Selenium UI 自动化测试脚本
+
+示例文件名规范：
+- `test_login.py` — 登录功能测试
+- `test_order.py` — 下单流程测试
+- `test_search.py` — 搜索功能测试

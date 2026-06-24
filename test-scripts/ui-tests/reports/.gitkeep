@@ -1,0 +1,5 @@
+# Allure 测试报告目录
+
+> 运行 `pytest --alluredir=./reports` 后自动生成
+
+报告查看：`allure serve reports/`

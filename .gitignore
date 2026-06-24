@@ -54,10 +54,23 @@ package-lock.json
 *.orig
 
 # ============================================
-# 测试输出
+# 测试输出（生成文件不提交，但保留 .gitkeep 目录结构）
 # ============================================
-test-results/
-test-reports/
 *.jtl
-reports/
-screenshots/
+
+# 报告（排除生成内容，保留目录占位）
+test-scripts/ui-tests/reports/*
+!test-scripts/ui-tests/reports/.gitkeep
+
+# 截图（排除图片，保留目录占位）
+screenshots/**/*.png
+screenshots/**/*.jpg
+screenshots/**/*.jpeg
+screenshots/**/*.gif
+screenshots/**/*.bmp
+
+# 测试结果
+test-results/*
+test-reports/*
+!test-results/.gitkeep
+!test-reports/.gitkeep

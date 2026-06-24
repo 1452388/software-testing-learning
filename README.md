@@ -71,7 +71,7 @@ software-testing-learning/
 - [ ] 接口测试（Postman）
 - [ ] SQL 数据库操作
 - [ ] Linux 常用命令
-- [ ] Git 版本控制
+- [x] Git 版本控制（基本命令 + VSCode 操作）
 - [ ] Python 编程
 - [ ] Selenium Web UI 自动化
 - [ ] Pytest 测试框架
@@ -83,22 +83,10 @@ software-testing-learning/
 
 ## 📝 学习日志
 
-### 2026.06.20
-- ✅ 创建此仓库
-- ✅ 配置 Git 环境
-- ✅ 编写测试用例模板
-- ✅ 开始软件测试学习之旅！
-
-### 2026.06.21
-- ✅ 补充登录模块、下单流程、金融项目测试用例
-- ✅ 创建 Bug 报告模板和示例
-- ✅ 搭建项目完整目录结构
-
-### 2026.06.22
-- ✅ 补充 SQL 练习脚本
-- ✅ 创建 Postman 接口测试集合
-- ✅ 编写 Selenium + Pytest 基础框架
-- ✅ 完善学习笔记（Linux/SQL/面试题）
+### 2026.06.24
+- ✅ 学习 Git 基本命令（add / commit / push / pull / branch / merge 等）
+- ✅ 掌握在 VSCode 中使用 Git 进行版本控制
+- ✅ 整理 Git 学习资源与常用命令速查
 
 ---
 

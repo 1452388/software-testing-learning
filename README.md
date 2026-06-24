@@ -19,6 +19,7 @@
 
 ## 📁 仓库结构
 
+
 ```
 software-testing-learning/
 ├── 📄 README.md                    ← 💎 面试官第一眼看的门面
@@ -27,12 +28,12 @@ software-testing-learning/
 │   ├── 01-登录模块用例.md
 │   ├── 02-下单流程用例.md
 │   ├── 03-金融项目用例.md
-│   └── template.md                 ← 用例模板
+│   └── ...
 │
 ├── 📁 bug-reports/                 ← Bug发现能力证明
 │   ├── BUG-20260620-001.md
 │   ├── BUG-20260621-002.md
-│   └── template.md                 ← Bug报告模板
+│   └── ...
 │
 ├── 📁 test-scripts/
 │   ├── 📁 sql/                     ← SQL能力证明
@@ -42,13 +43,12 @@ software-testing-learning/
 │   │   ├── test_api.py
 │   │   └── jmeter-script.jmx
 │   ├── 📁 ui-tests/               ← 💎 自动化能力证明（最重要）
-│   │   ├── 📁 pages/               ← POM 页面对象
-│   │   ├── 📁 tests/               ← 测试用例
-│   │   ├── 📁 reports/             ← Allure 报告
+│   │   ├── pages/                  ← POM 页面对象
+│   │   ├── tests/                  ← 测试用例
+│   │   ├── reports/                ← Allure 报告
 │   │   └── conftest.py
 │   └── 📁 python-basics/          ← 编程基础
-│       └── 📁 daily-practice/
-│           └── day01-02-basics.py
+│       └── daily-practice/
 │
 ├── 📁 notes/                       ← 学习笔记
 │   ├── linux-commands.md
@@ -56,10 +56,9 @@ software-testing-learning/
 │   └── interview-qa.md
 │
 └── 📁 screenshots/                 ← 各种截图证明
-    ├── 📁 test-results/
-    └── 📁 bug-screenshots/
+    ├── test-results/
+    └── bug-screenshots/
 ```
-
 ---
 
 ## 🛠️ 技能清单
